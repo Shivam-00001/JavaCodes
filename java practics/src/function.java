@@ -64,14 +64,42 @@
 //     }
 // }
 
-class Addtion {
-    public static int add(int a, int b){
-        System.out.println("value of addition = " +(a+b));
-        return a+b;
-    }
-    public static void main(String[] args) {
-        add(10, 10);
-    }
-}
+// class Addtion {
+//         public static void main(String[] args) {
+//             int newadd=add(10, 12); //22
+//             System.out.println(newadd); //22 print
+//             System.out.println(add(6, 6)); // System.out.println(12)
+//             System.out.println(add(5, 6));
+//             System.out.println(add(8, 6));
+//         }
+//     public static int add(int a, int b){
+//         int addt = a+b;
+//         return addt;
+//     }
+// }
 
 
+// with out return type----------------------------------------
+// class aaddtion{
+//     static void sum (int a, int b){
+//             int add = a+b;
+//             System.out.println(add);
+//         }
+//         public static void main(String[] args) {
+//           sum(2, 2);
+//         }
+//     }
+
+
+// return type -------------------------------------------------------------
+class aaddtion{
+    static int sum (int a, int b){
+            int add = a+b;
+            System.out.println(add);
+            return add;
+        }
+        public static void main(String[] args) {
+          sum(2, 2);
+
+        }
+    }
